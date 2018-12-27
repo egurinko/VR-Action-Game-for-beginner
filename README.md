@@ -18,27 +18,44 @@ I Delivered 45-min public tech talk about "How to Start Making a VR Application 
 - [How it works](#How-it-works)
 - [Links](#links)
 
-## Introduction
-
-VR-Skeleton-Attack is the Android VR shooting game for Cardboard.<br>
-Your goal is shooting as much skeletons as you can in VR dongeon.
-
 ## Features
 This app provides three features,
 
 1. Game System
-   - Welcome Scene and Game Sence
-   - Player has 4 lives. When player get four attacks from skeletons, dead.
-   - Player can shoot skeletons.
+   - Welcome Scene and Game Scene
+   - In Game scene, player has 4 lives. When player get four damages from skeletons, dead.
+   - When player dead, you can continue.
+   <br>
+     <br>
+     <img src="https://user-images.githubusercontent.com/23233648/50463699-90e0a600-09d0-11e9-931d-a213a3d6d9ce.png" height="60%" width="60%">
+     <br>
+     <br>
+     
 2. UI design
-   - In dongeon
+   - Field is dongeon, skybox is designed that you feel you are in space.
+   - When skeletons appear and die, they come with 3D effect.
+   - When player get damage it blinks red.
+   
 3. Interaction
-   - Player can shoot skeletons. When player get damange, UI blink red.
-   - Skeletons: Randomly appeared. Approaching to player with randomness. When they get damage, they die.
+   - Player can shoot skeletons. You can target with gaze input and you can shoot with touch.
+   - Skeletons: Randomly appeared. Approaching to player with randomness. <br>
+     When they are close enough to player, it attacks player.
+   
 
 ## Setup
 
-Clone this repo and build on Android. If you have cardboard, you can experience VR app.
+Please download [Unity](https://unity3d.com), if you want to edit this VR application.<br>
+If you have Unity, 
+
+1. Clone this repo
+```
+git clone https://github.com/egurinko/VR-Skeleton-Attack.git
+cd VR-Skeleton-Attack
+```
+
+2. Edit and build in Unity
+
+3. If you have cardboard, play with it.
 
 ## Links
 
