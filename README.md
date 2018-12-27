@@ -2,6 +2,7 @@
 
 This was created during my time as a student at Code Chrysalis!<br>
 I Delivered 45-min public tech talk about "How to Start Making a VR Application with Unity".
+[UI](https://user-images.githubusercontent.com/23233648/50463463-38f56f80-09cf-11e9-92df-2e3b12465e96.jpg)
 
 ## Table of content
 
@@ -16,7 +17,7 @@ I Delivered 45-min public tech talk about "How to Start Making a VR Application 
 ## Introduction
 
 VR-Skeleton-Attack is the Android VR shooting game for Cardboard.<br>
-You can shoot skeletons in VR dongeon.
+Your goal is shooting as much skeletons as you can in VR dongeon.
 
 ## Features
 This app provides three features,
